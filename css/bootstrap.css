@@ -6055,6 +6055,10 @@ button.close {
 }
 .carousel-caption h2 {
   font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+}
+@media (max-width: 480px) {
+  .carousel-caption h2 { font-size: 20px; }
 }
 .container {
   line-height: 100px // height of your carousel
