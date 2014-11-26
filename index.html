@@ -64,6 +64,48 @@
         <!-- /.container -->
     </nav>
 
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" style="background-color: #464646;">
+        <div class="item active">
+          <div class="fill" style="background-image:url('images/nmrt.jpg'); opacity: 0.2;"></div>
+          <div class="carousel-caption">
+            <!-- <h2><em>MD-1 DMAT</em>, a group of dedicated medical and disaster response professionals from within the National Capitol Region.</h2> -->
+            <h2>Mass-decon standby support at the US Capitol</h2>
+          </div>
+        </div>
+        <div class="item">
+          <div class="fill" style="background-image:url('images/DNC_catlett_sinha.jpg');  opacity: 0.2;"></div>
+          <div class="carousel-caption">
+            <!-- <h2>MD-1 DMAT is a member of the National Disaster Medical System within the US Department of Health and Human Services, and on-call to respond to Federally-supported incidents across the country and overseas.</h2> -->
+            <h2>Mass-gathering medical coverage for the 2012 Democratic National Convention</h2>
+          </div>
+        </div>
+        <!-- <div class="item">
+          <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+          <div class="carousel-caption">
+            <h2>Caption 3</h2>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </header>
+
     <!-- Header -->
     <header id="masthead">
       <div class="jumbotron jumbotron-masthead">
@@ -189,6 +231,13 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+      interval: 8000 //changes the speed
+    })
+    </script>
 
 </body>
 
