@@ -4689,6 +4689,12 @@ a.list-group-item.active > .badge,
   color: #000;
   margin-bottom: 30px;
 }
+#footer {
+  background-color: #d6d6d6;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-family: 'Roboto Slab', serif;
+}
 
 @media screen and (min-width: 768px) {
   .jumbotron {
